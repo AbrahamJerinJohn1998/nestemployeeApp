@@ -10,6 +10,7 @@ import { AdminviewComponent } from './adminview/adminview.component';
 import { AddtaskComponent } from './addtask/addtask.component';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 const myRoute:Routes=[
   {
     path:"",
@@ -43,6 +44,7 @@ const myRoute:Routes=[
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(myRoute),
+    FormsModule,
     HttpClientModule
   ],
   providers: [],
