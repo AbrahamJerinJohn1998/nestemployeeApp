@@ -11,6 +11,7 @@ import { AddtaskComponent } from './addtask/addtask.component';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { UserloginComponent } from './userlogin/userlogin.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -38,7 +39,8 @@ const myRoute:Routes=[
     NavbaradminComponent,
     AdminviewComponent,
     AddtaskComponent,
-    AddemployeeComponent
+    AddemployeeComponent,
+    UserloginComponent
   ],
   imports: [
     BrowserModule,
